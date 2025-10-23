@@ -1,6 +1,67 @@
-nav {
-    text-align: center;
+body {
+    font-family: Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #111;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background: #d10158;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
 h1 {
     text-align: center;
+    color: #0b3a91;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+table.plantilla { 
+    width:90%; margin:20px auto; 
+    border-collapse:collapse; 
+    table-layout:fixed; 
+}
+
+table.plantilla td { 
+    width:33.33%; 
+    padding:8px; 
+    vertical-align:top; 
+}
+
+table.jugador { 
+    width:100%; 
+    border-collapse:collapse; 
+    text-align:center; 
+}
+table.imatge img { 
+    width:100%; 
+    max-width:200px; 
+    display:block; 
+    margin:0 auto; 
+    border-radius:6px; 
+}
+
+table.dades { 
+    width:100%; 
+    margin-top:8px; 
+}
+table.dades h2 { 
+    margin:6px 0; 
+    font-size:1rem; 
 }
