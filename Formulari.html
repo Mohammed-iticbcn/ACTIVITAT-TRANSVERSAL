@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulari FCB</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Formulari Soci FCB</h1>
+      <form action="Formulari_enviat.html" method="get">
+        <fieldset>
+          <legend>Informació de contacte</legend>
+
+          <label for="nom">Nom complet</label>
+          <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required>
+
+          <label for="correu">Correu electrònic</label>
+          <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required>
+
+          <label for="id">DNI/NIE</label>
+          <input id="id" name="id" type="id" placeholder="1234567A">
+
+          <label>Telèfon de contacte</label>
+            <input id="telefon" name="telefon" type="tel" placeholder="123 456 789">
+        </fieldset>
+        <fieldset>
+          <legend>Preferències</legend>
+
+          <label for="frequencia">Quina és la teva freqüència veient partits?</label>
+          <select id="frequencia" name="frequencia" required>
+            <option value="diari" selected>Setmanal</option>
+            <option value="setmanal">Ocasional</option>
+            <option value="ocasional">Cap</option>
+          </select>
+
+          <label>Quins tipus de contingut t'agrada més? (marca els que vulguis)</label>
+          <label><input type="checkbox" id="resum" name="contingut" value="resum" required> Resums dels partits</label>
+          <label><input type="checkbox" id="noticies" name="contingut" value="noticies"> Notícies</label>
+          <label><input type="checkbox" id="entrevistes" name="contingut" value="entrevistes"> Entrevistes</label>
+
+          <label>Com qualificaries l'estat actual de l'equip?</label>
+          <label><input type="radio" id="excelent" name="estat" value="excelent" checked required> Excel·lent</label>
+          <label><input type="radio" id="bo" name="estat" value="bo"> Bo</label>
+          <label><input type="radio" id="regular" name="estat" value="regular"> Regular</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Comentaris</legend>
+          <label for="comentaris">Explica què penses sobre l'equip</label>
+          <textarea id="comentaris" name="comentaris" rows="5" placeholder="Escriu aquí els teus comentaris..." required></textarea>
+        </fieldset>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
