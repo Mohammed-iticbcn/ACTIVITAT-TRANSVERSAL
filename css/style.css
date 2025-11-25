@@ -179,3 +179,48 @@ h2 {
   font-size: 15px;
   margin: 5px 0;
 }
+
+/*Galeria*/
+.container{
+
+}
+
+.section_1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.section_1-title{
+  font-family: sans-serif, 'roboto';
+  font-size: 44px;
+  font-weight: bold;
+  color: red;
+  padding: 50px 0px 10px 0px;
+  text-align: center;
+}
+
+.section_1 hr{
+  width: 200px;
+  height: 10px;
+  border: none;
+  background-color: red;
+}
+
+.galery{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.galery-content{
+  width: 20%;
+}
+
+.galery-content img{
+  object-fit: cover;
+  width: 100%;
+}
