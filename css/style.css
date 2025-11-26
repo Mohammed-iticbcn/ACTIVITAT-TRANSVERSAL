@@ -103,13 +103,6 @@ body {
   font-size: 16px;
 }
 
-table.palmares {
-  width: 90%;
-  margin: 32px auto;
-  border-spacing: 24px;
-  text-align: center;
-}
-
 table.titol {
   width: 100%;
   background-color: #fff;
@@ -125,9 +118,10 @@ table.titol:hover {
 }
 
 .trofeu {
-  width: 80px;
-  height: auto;
-  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 h2 {
@@ -136,42 +130,47 @@ h2 {
   margin: 5px 0;
 }
 
-.palmares {
-  display: flex;
-  justify-content: space-around; 
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 20px;
-}
-
-.trofeu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+table.palmares {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 16px;
   text-align: center;
 }
 
+table.palmares tr {
+  display: table-row;
+}
+
+table.palmares td {
+  width: 25%;
+  vertical-align: top;
+}
+
 .trofeu-icona img {
-  width: 120px;
-  height: auto;
-  border-radius: 8px;
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
 }
 
 .trofeu-detalls h2 {
-  font-size: 19px;
-  margin: 0;
+  font-size: 18px;
+  margin: 6px 0 2px 0;
 }
 
 .quantitat {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: bold;
+  margin: 2px 0;
 }
 
 .anys {
   font-size: 14px;
   color: #555;
+  margin: 0;
 }
 
 .posicio-jugadors {
@@ -249,4 +248,131 @@ h2 {
   color: #ffffff;
   font-weight: 600;
   cursor: pointer;
+}
+
+#galeria-1{
+  background-color: rgb(22, 22, 219);
+}
+
+.section_1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.section_1-title{
+  font-family: sans-serif, 'roboto';
+  font-size: 44px;
+  font-weight: bold;
+  color: #fdc52c;
+  text-align: center;
+}
+
+.galery{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.galery-content{
+  width: 50%;
+  display: flex;
+}
+
+.galery-content img{
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+  border: 3px solid black;
+  padding: 2px;
+}
+
+.inici-1{
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header h1{
+ margin: 0;
+ font-size: 2.5em;
+ text-transform: uppercase;
+ letter-spacing: 2px; 
+ padding: 10px;
+}
+
+nav{
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a{
+color: #fff;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+font-size: 1.1em;
+padding: 5px 10px;
+transition: background-color 0.3s;
+}
+
+nav a:hover, nav a.active{
+  background-color: #edbb00;
+  color: #004D98;
+  border-radius: 4px;
+}
+
+.main-1{
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.imatges-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imatges-container img{
+  max-width: 100%;
+  height: auto;
+  width: 350px;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.taula{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.taula th, .taula td{
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.taula th{
+  background-color: #004D98;
+  color: white;
+}
+
+.taula tr:nth-child(even){
+  background-color: #f9f9f9;
+}
+
+.taula tr:hover{
+  background-color: #e6e6e6;
 }
