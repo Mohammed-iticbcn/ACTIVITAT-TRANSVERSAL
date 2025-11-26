@@ -179,3 +179,74 @@ h2 {
   font-size: 15px;
   margin: 5px 0;
 }
+
+.formulario {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 32px;
+  background: #292488;
+  color: #2a039f;
+}
+
+.formulario main {
+  max-width: 480px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px black;
+}
+
+.formulario h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.formulario fieldset {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 0;
+}
+
+.formulario legend {
+  font-weight: 600;
+  padding: 0 8px;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="tel"],
+.formulario textarea,
+.formulario select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.formulario input[type="checkbox"],
+.formulario input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.formulario button {
+  margin-top: 24px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 4px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
