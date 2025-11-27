@@ -437,9 +437,11 @@ footer{
 
 .player-info p{
   margin-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  padding-right: 20px;
   opacity: 0;
   transition: opacity 0.5s ease 0.2s;
+  text-overflow: ellipsis;
 }
 
 .player-card:hover img{
