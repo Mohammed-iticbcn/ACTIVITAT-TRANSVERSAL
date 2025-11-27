@@ -376,3 +376,12 @@ nav a:hover, nav a.active{
 .taula tr:hover{
   background-color: #e6e6e6;
 }
+
+footer{
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
