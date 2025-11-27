@@ -1,2 +1,1 @@
-Àlex Sáez Olivera
-Mohammed Al Nassar
+Àlex Sáez Olivera i Mohammed Al Nassar
