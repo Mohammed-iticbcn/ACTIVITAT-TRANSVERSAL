@@ -252,6 +252,10 @@ table.palmares td {
   cursor: pointer;
 }
 
+.links {
+  padding-left: 30px;
+}
+
 #galeria-1{
   background-color: rgb(22, 22, 219);
 }
