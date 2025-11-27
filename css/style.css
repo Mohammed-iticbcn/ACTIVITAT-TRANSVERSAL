@@ -455,3 +455,18 @@ footer{
 .player-card:hover .player-info p{
   opacity: 1;
 }
+
+.imgs-barca{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imgs-barca img{
+  max-width: 50%;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
