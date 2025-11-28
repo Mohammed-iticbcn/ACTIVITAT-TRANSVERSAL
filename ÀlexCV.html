@@ -1,29 +1,145 @@
 <!DOCTYPE html>
 <html lang="ca">
-   
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-     
-    <body>
-        <header>
-            <h1>FC Barcelona</h1>
-            <nav>
-                <a href="index.html">Inici</a>
-                <a href="historia.html">Història</a>
-                <a href="plantilla.html">Plantilla</a>
-                <a href="palmares.html">Palmarès</a> 
-                <a href="galeria.html">Galeria</a> 
-                <a href="nosaltres.html">Nosaltres</a>
-            </nav>
-        </header>
-        <p></p>
-        <H2>Àlex Sáez Olivera CV</H2>
+<head>
+    <meta charset="UTF-8">
+    <title>CV Àlex Sáez Olivera</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .column-left, .column-right {
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 32px;
+            margin: 0;
+            color: #0b3a91;
+        }
+        h2 {
+            font-size: 20px;
+            color: #0b3a91;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #0b3a91;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
 
-        <footer>
-            <p>&copy; 2025 Portal FC Barcelona - Pàgina Web Educativa</p>
-        </footer>
-    </body>   
+    <div class="container">
+        <div class="column-left" style="flex:1; border-right: 2px solid #ccc;">
+            <h1>Àlex Sáez Olivera</h1>
+            <p>Estudiant DAW</p>
+            <p>Telèfon: 674 836 776</p>
+            <p>Email: 2526_alex.saez@iticbcn.cat</p>
+            <p>GitHub: <a href="https://github.com/alexsaezolivera7" target="_blank">https://github.com/alexsaezolivera7</a></p>
+
+            <section>
+                <h2>Perfil professional</h2>
+                <p>Estudiant de 19 anys de DAW al ITIC de Barcelona (2025‑actualitat), apassionat pel desenvolupament web i disseny frontend. Interessat en maquetació, usabilitat i desenvolupament responsive.</p>
+            </section>
+
+            <section>
+                <h2>Idiomes</h2>
+                <ul>
+                    <li>Català – Llengua materna</li>
+                    <li>Castellà – Llengua materna</li>
+                    <li>Anglès – Nivell B2</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Treball en equip</li>
+                    <li>Organització</li>
+                    <li>Creativitat</li>
+                    <li>Resolució de problemes</li>
+                    <li>Aprenentatge ràpid</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="column-right" style="flex:1;">
+            <section>
+                <h2>Educació</h2>
+                <table>
+                    <tr>
+                        <th>Any</th>
+                        <th>Curs</th>
+                        <th>Centre</th>
+                    </tr>
+                    <tr>
+                        <td>2018‑2022</td>
+                        <td>ESO</td>
+                        <td>Institut Maria Espinalt</td>
+                    </tr>
+                    <tr>
+                        <td>2022‑2024</td>
+                        <td>Batxillerat</td>
+                        <td>Institut Maria Espinalt</td>
+                    </tr>
+                    <tr>
+                        <td>2025‑Actualitat</td>
+                        <td>DAW</td>
+                        <td>ITIC, Barcelona</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>Competències tècniques</h2>
+                <ul>
+                    <li>HTML &amp; CSS</li>
+                    <li>Control de versions amb Git</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Projectes</h2>
+                <ul>
+                    <li>Desenvolupament d'una pàgina web sobre el meu equip de futbol preferit, amb història, plantilla, estadístiques i galeria de fotos.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <footer style="text-align:center; margin-top: 10px; color:#555;">
+        Autor: Àlex Sáez Olivera
+    </footer>
+</body>
 </html>
